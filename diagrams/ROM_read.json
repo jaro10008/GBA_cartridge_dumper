@@ -1,0 +1,16 @@
+{signal: [
+  {name: 'CS2', wave: '1..........'},
+  {},
+  {name: 'CS', wave: '10........1'},
+  {},
+  {name: 'RD', wave: '1.01010101.'},
+  {},
+  {name: 'WR', wave: '1..........'},
+  {},
+  {name: 'A[16..23]', wave: 'x=.........x', data: ['address[16..23]'], phase: 2},
+  {},
+  {name: 'A[8..15]', wave: 'x=x=x=x=x=x.', data: ['address[8..15]', 'data[8..15]', 'data2[8..15]', 'data3[8..15]', 'data4[8..15]'], phase: 2},
+  {},
+  {name: 'A[0..7]', wave: 'x=x=x=x=x=x.', data: ['address[0..7]', 'data[0..7]', 'data2[0..7]', 'data3[0..7]', 'data4[0..7]'], phase: 2},
+],
+  config: { hscale: 2.5 }}

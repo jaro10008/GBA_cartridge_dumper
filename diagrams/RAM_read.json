@@ -1,0 +1,16 @@
+{signal: [
+  {name: 'CS2', wave: '10.1.......'},
+  {},
+  {name: 'CS', wave: '1..........'},
+  {},
+  {name: 'RD', wave: '1.01.......'},
+  {},
+  {name: 'WR', wave: '1..........'},
+  {},
+  {name: 'A[16..23]', wave: 'x..=x.......', data: ['data'], phase: 2},
+  {},
+  {name: 'A[8..15]', wave: 'x=..x.......', data: ['address[8..15]'], phase: 2},
+  {},
+  {name: 'A[0..7]', wave: 'x=..x.......', data: ['address[0..7]'], phase: 2},
+],
+  config: { hscale: 2.5 }}
